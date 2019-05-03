@@ -1,0 +1,125 @@
+body {
+    font-family: Georgia, serif;
+	background-image: url(back.png);
+
+    background-size: 100%; 
+}
+
+h1 { 
+	text-align: center; 
+	color: #610B38;
+	text-shadow: 1px 1px 2px black, 0 0 1em red;
+	font-size:40px;
+	margin-top: 12px;	
+}
+
+table {
+	border: 1px solid black;
+	border-collapse: collapse;
+	font-family: 'Open Sans', sans-serif;
+	margin: auto;
+}
+
+
+th {
+	padding: 5px;
+	border: 2px solid black;
+	text-align: center;
+	font-weight: bold;
+}
+
+td {
+	padding: 5px;
+	border: 1px solid black;
+	text-align: center;
+}
+
+tr:hover > td {
+	background-color: rgba(255, 0, 0, 0.2);
+}
+
+.avatar {
+    display: block;
+    width: 500px;
+    margin: 20px auto;
+    box-shadow: 5px 5px 0 #E7471E;
+}
+
+.nice-cite {
+    margin: 1.5em 0;
+    padding: 0.5em 25px;
+    line-height: 1.5;
+    background: #f5f5f5;
+    border-left: 5px solid #E7471E;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.ref a{
+    display: block;
+    padding: 7px 200px;
+    color: #610B38;
+    background: #F8ECE0;
+	border: 5px solid #e5e5e5;
+	font-size: 15px;
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+	border-radius: 250px
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px;
+	font-size: 22px;
+	display: block;
+	background: linear-gradient(to right, rgba(96,108,136,1) 0%,rgba(63,76,107,1) 100%);
+	width: 200px;
+	text-align: center;
+	margin-right: -4px;
+}
+
+ul {
+	text-align: center;
+	list-style: none; /*убираю маркеры списка*/
+	margin: 0; /*убираю верхнее и нижнее поле, равное 1em*/
+	padding-left: 0; /*убираю левый отступ, равный 40px*/
+}
+
+p {
+	text-align: center;
+	color: #610B38;
+}
+
+.menu-main {
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+}
+
+.menu-main li {
+    display: inline-block;
+    margin-right: 0 px;
+}
+
+.menu-main a {
+    display: block;
+    margin-left: -1px;
+    padding: 8px 10px;
+    color: #610B38;
+    background: #F8ECE0;
+	border: 5px solid #e5e5e5;
+	font-size: 20px;
+	cursor: url('data:image/x-icon;base64,AAACAAEAICAQAAAAAADoAgAAFgAAACgAAAAgAAAAQAAAAAEABAAAAAAAAAIAAAAAAAAAAAAAEAAAAAAAAAAAAAAAKAf6AAgHBwAH+igA68X6AKp06ADMpvcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiIiIiAAAAAAAAAAACJmJVJmJVIiAAAAAAAAAAJSZiVSZiVSYgAAAAAAAAACUmYlUmYlUmIAAAAAAAAAAiQiQiQiQiYiAAAAAAAAACREREREREREZiAAAAAAAAJEREREREREREZiAAAAAAACREREREREREREYgAAAAAAACRERERERERERiAAAAAAAAAkVVREIiREVVYgAAAAAAACRFUiRCQkQiVWYgAAAAAAAkREIkREREIkZmIAAAAAAAAiRAJERERAJGIgAAAAAAAAAkREQEAARERiAAAAAAAAAAJEAAAAAABmYgAAAAAAAAAAIgACIiAAAiAAAAAAAAAAAAAgIRASACAAAAAAAAAAAAAAIhAREiIgAAAAAAAAAAAAAAIxEBIAAAAAAAAAAAAAAAADMzEgAAAAAAAAAAAAAAAAADMiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD////////////////////////////////////////////////8AAf//AAD//gAA//4AAP/+AAD//AAAf/gAAD/4AAA//AAAf/wAAH/4AAA/+AAAP/wgEH/+BcD//j/w//84ef//0Tf//8QH///hP///4H////D/////////////w=='), auto;
+}
+
+.menu-main a:hover {
+    background: #F6CED8;
+}
+
+
+
+
+
